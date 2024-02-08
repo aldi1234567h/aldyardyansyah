@@ -1,17 +1,3 @@
-<?php
-// Mulai sesi
-session_start();
-
-// Periksa apakah pengguna sudah masuk
-if (!isset($_SESSION["username"])) {
-    // Jika belum masuk, alihkan ke halaman login
-    header("Location: login.php");
-    exit();
-}
-
-// Jika sudah masuk, dapatkan username dari variabel sesi
-$logged_in_username = $_SESSION["username"];
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -19,12 +5,12 @@ $logged_in_username = $_SESSION["username"];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
-    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="css/dashboard.css">
 </head>
 <body>
     <header>
         <h1>Dashboard</h1>
-        <p>Selamat datang, <?php echo $logged_in_username; ?>!</p>
+        <p>Selamat datang, !</p>
     </header>
 
     <nav>
@@ -50,9 +36,8 @@ $logged_in_username = $_SESSION["username"];
 
      <!-- Footer -->
      <footer id="footer">
-        <p class="copyright">&copy; NAMA: SALSA CAMELIA ZAHRA</p>
-        <p>NPM: 21552011135</p>
-        <p>UTS PEMROGRAMAN WEB 1</p>
+        <p class="copyright">&copy; 21552011135_SALSA CAMELIA ZAHRA_KELOMPOK 9_TIFRP221PB_UASWEB1</p>
+        
     </footer>
 </body>
 </html>

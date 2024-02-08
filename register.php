@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="register.css"> <!-- You can create a separate CSS file for styling -->
+    <link rel="stylesheet" href="css/register.css"> <!-- You can create a separate CSS file for styling -->
     <title>SALSA CAMELIA ZAHRA - Register</title>
 </head>
 <body>
@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <nav>
             <div class="logo">LOGIN LES ONLINE BAHASA INGGRIS</div>
             <ul class="nav-links">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="home.php">Home</a></li>
                 <li><a href="login.php">Login</a></li>
                 <!-- Add more navigation links as needed -->
             </ul>
