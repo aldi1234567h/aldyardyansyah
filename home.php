@@ -14,23 +14,30 @@
 <body>
 	<!-- Nav Bar -->
 	<nav class="navbar navbar-expand-lg bg-body-tertiary">
-		<!-- ... (bagian lain dari nav) ... -->
+		<div class="container-fluid">
+			<!-- Offcanvas Toggle Button -->
+			<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+				aria-controls="offcanvasNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav ms-auto">
-				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Home</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="login.php">Login</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="register.php">Register</a>
-				</li>
-				<li class="nav-item">
-					<input type="text" id="searchInput" placeholder="Cari..." class="form-control">
-				</li>
-			</ul>
+			<!-- Navbar Brand -->
+			<a class="navbar-brand" href="#">LES ONLINE BAHASA INGGRIS</a>
+
+			<!-- Navbar Items (Hidden in Offcanvas) -->
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="login.php">Login</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="register.php">Register</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</nav>
 	<!-- end Nav Bar -->
@@ -180,7 +187,7 @@
 						</li>
 					</ul>
 					<p class="copyright">&copy; 21552011135_SALSA CAMELIA ZAHRA_KELOMPOK 9_TIFRP221PB_UASWEB1</p>
-					
+
 				</footer>
 
 
@@ -190,35 +197,14 @@
 	</div>
 
 	<!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/browser.min.js"></script>
-<script src="assets/js/breakpoints.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 
-<script>
-    document.getElementById('searchInput').addEventListener('input', function() {
-        searchItems();
-    });
 
-    function searchItems() {
-        var input, filter, ul, li, a, i, txtValue;
-        input = document.getElementById('searchInput');
-        filter = input.value.toUpperCase();
-        ul = document.getElementById('itemList'); // Ganti dengan id yang sesuai
-        li = ul.getElementsByTagName('li');
-
-        for (i = 0; i < li.length; i++) {
-            a = li[i];
-            txtValue = a.textContent || a.innerText;
-            if (txtValue.toUpperCase().indexOf(filter) > -1) {
-                li[i].style.display = '';
-            } else {
-                li[i].style.display = 'none';
-            }
-        }
-    }
-</script>
 
 </body>
+
 </html>

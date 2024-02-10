@@ -55,7 +55,7 @@
             formData.append('password', password);
 
             //konfigurasi axios
-            axios.post('http://localhost/UTS_PemrogramanWeb1_SalsaCameliaZahra_Project1/API/APIlogin.php',formData)
+            axios.post('http://localhost/UTS_Web1_Project1_SalsaCameliaZahra/API/APIlogin.php',formData)
             .then(response => {
                 console.log(response)
                 //handle respon dari server

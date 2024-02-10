@@ -16,7 +16,11 @@
     <nav>
         <ul>
             <!-- Tautan navigasi lainnya -->
+            <li><a href="tambah.php">tambah peserta</a></li>
+            <li><a href="tampil.php">tampil</a></li>
+            <li><a href="profil.php">Ubah Password</a></li>
             <li><a href="logout.php">Logout</a></li>
+            
         </ul>
     </nav>
 

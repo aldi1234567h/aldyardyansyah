@@ -6,7 +6,7 @@
           formData.append('session_token',localStorage.getItem('session_token'));
 
             //konfigurasi axios logout
-            axios.post('http://localhost/UTS_PemrogramanWeb1_SalsaCameliaZahra_Project1/API/APIsession.php',formData)
+            axios.post('http://localhost/UTS_Web1_Project1_SalsaCameliaZahra/API/APIsession.php',formData)
             .then(Response => {
                 console.log(Response)
                 //handle respon dari server
