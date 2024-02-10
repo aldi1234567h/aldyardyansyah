@@ -84,9 +84,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <!-- Footer -->
     <footer id="footer">
-        <p class="copyright">&copy; NAMA: SALSA CAMELIA ZAHRA</p>
-        <p>NPM: 21552011135</p>
-        <p>UTS PEMROGRAMAN WEB 1</p>
+        <p class="copyright">&copy; NAMA: Aldy Ardyansyah</p>
+        <p>NPM: 21552011131</p>
+        <p>UAS PEMROGRAMAN WEB 1</p>
     </footer>
 </body>
 </html>

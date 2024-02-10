@@ -162,8 +162,7 @@
 					</header>
 
 					<ul class="contact">
-						<li class="icon solid fa-envelope"><a href="#">Kelompok9@gmail.com</a></li>
-						<li class="icon solid fa-phone">081234678910</li>
+						<li class="icon solid fa-envelope"><a href="#">ardyansyahaldy83@gmail.com</a></li>
 						<li class="icon solid fa-home">Bandung, Kota Bandung<br />
 							Jawa Barat</li>
 					</ul>
@@ -186,7 +185,7 @@
 							<!-- Adjust the margin-bottom value as needed -->
 						</li>
 					</ul>
-					<p class="copyright">&copy; 21552011135_SALSA CAMELIA ZAHRA_KELOMPOK 9_TIFRP221PB_UASWEB1</p>
+					<p class="copyright">&copy; 21552011131_Aldy Ardyansyah_TIFRP221PB_UASWEB1</p>
 
 				</footer>
 

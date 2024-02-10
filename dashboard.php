@@ -40,7 +40,7 @@
 
      <!-- Footer -->
      <footer id="footer">
-        <p class="copyright">&copy; 21552011135_SALSA CAMELIA ZAHRA_KELOMPOK 9_TIFRP221PB_UASWEB1</p>
+        <p class="copyright">&copy; 21552011131_Aldy Ardyansyah_TIFRP221PB_UASWEB1</p>
         
     </footer>
 </body>
